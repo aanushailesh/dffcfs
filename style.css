@@ -1,0 +1,75 @@
+.head
+{
+    font-size:large;
+    color:darkslateblue;
+    font-family:Arial, Helvetica, sans-serif;
+}
+input[type="submit"]
+{
+    background-color:cornsilk;
+    text-decoration:aliceblue;
+    font-size: 20px;
+    font-style: sans-serif;   
+    margin: 10px;
+    padding: 10px;
+
+}
+input[type="submit"]:hover
+{
+    background-color:darkgray;
+}
+img
+{
+    border-radius:50%;
+    margin: 20px; 
+    border:3px solid brown;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0,1);
+        
+}
+@keyframes vibrate {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-1deg); }
+    20% { transform: rotate(1deg); }
+    30% { transform: rotate(0deg); }
+    40% { transform: rotate(1deg); }
+    50% { transform: rotate(-1deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform: rotate(-1deg); }
+    80% { transform: rotate(1deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(-1deg); }
+  }
+  img:hover {
+    /* Start the vibrate animation with duration 0.5 seconds */
+    animation: vibrate 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+.contact
+{
+    padding:10px;
+    margin: 10px;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table{
+  height: 100px;
+  width:1000px;
+  text-align: center;
+}
+tr:hover {
+    background-color: whitesmoke;
+}
+th {
+    background-color:gray;
+    color: white;
+  }
